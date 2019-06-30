@@ -1,0 +1,244 @@
+/* NOTE: Do not edit the Bootstrap CSS files. */
+
+body {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background: #05cf9b;
+
+}
+
+.navbar {
+  background: #eab126;
+  border: 1px solid #f2414e;
+  font-family: 'Boogaloo', cursive;
+  font-size: 15px!important;
+}
+
+.navbar a {
+  color: black;
+  font-size: 25px;
+}
+
+container {
+  padding: 10px;
+  font-size: 25px !important;
+}
+.img-res{
+  width:80%;
+}
+
+h1 {
+  background-color: #1fb58f;
+  border: 1px solid #eab126;
+  font-family: 'Boogaloo', cursive;
+}
+
+h2 {
+  background-color: #1fb58f;
+  border: 1px solid #eab126;
+  font-family: 'Boogaloo', cursive;
+}
+
+h3 {
+  font-family: 'Boogaloo', cursive;
+}
+
+.iframe-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
+}
+
+.iframe-container > * {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+
+
+/*--Product Section--*/
+
+div.clear {
+  clear: both;
+}
+
+div.product-chooser {}
+
+div.product-chooser.disabled div.product-chooser-item {
+  zoom: 1;
+  filter: alpha(opacity=60);
+  opacity: 0.6;
+  cursor: default;
+}
+
+div.product-chooser div.product-chooser-item {
+  padding: 11px;
+  border-radius: 6px;
+  cursor: pointer;
+  position: relative;
+  border: 1px solid #f2414e;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10x;
+}
+
+
+
+
+div.product-chooser div.product-chooser-item img {
+  padding: 0;
+}
+
+div.product-chooser div.product-chooser-item span.title {
+  display: block;
+  margin: 10px 0 5px 0;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+div.product-chooser div.product-chooser-item span.description {
+  font-size: 14px;
+}
+
+div.product-chooser div.product-chooser-item input {
+  position: absolute;
+  left: 0;
+  top: 0;
+  visibility: hidden;
+}
+
+.img-rounded {
+  width: 80%;
+  margin: 0 10%;
+}
+
+/*--End of Product--*/
+
+/*--Testimonials--*/
+
+.testimonial {
+  margin-bottom: 10px;
+}
+
+.testimonial-section {
+  width: 100%;
+  height: auto;
+  padding: 15px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  position: relative;
+  border: 1px solid #fff;
+}
+
+.testimonial-section:after {
+  top: 100%;
+  left: 50px;
+  border: solid transparent;
+  content: " ";
+  position: absolute;
+  border-top-color: #fff;
+  border-width: 15px;
+  margin-left: -15px;
+}
+
+.testimonial-desc {
+  margin-top: 20px;
+  text-align: left;
+  padding-left: 15px;
+}
+
+.testimonial-desc img {
+  border: 2px solid #f5f5f5;
+  border-radius: 0;
+  border-radius: 285px;
+  height: 150px;
+  padding: 3px;
+  width: 150px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.testimonial-writer {
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 10px;
+}
+
+.testimonial-writer-name {
+  font-weight: bold;
+}
+
+.testimonial-writer-designation {
+  font-size: 85%;
+}
+
+.testimonial-writer-company {
+  font-size: 85%;
+}
+
+/*---- Outlined Styles ----*/
+
+.testimonial.testimonial-default .testimonial-section {
+  border-color: #f2414e;
+}
+
+.testimonial.testimonial-default .testimonial-section:after {
+  border-top-color: #f2414e;
+}
+
+.testimonial.testimonial-default .testimonial-desc {}
+
+.testimonial.testimonial-default .testimonial-desc img {
+  border-color: #f2414e;
+}
+
+.testimonial.testimonial-default .testimonial-writer-name {
+  color: black;
+}
+
+
+
+.testimonial.testimonial-primary .testimonial-section {
+  border-color: #f2414e;
+}
+
+.testimonial.testimonial-primary .testimonial-section:after {
+  border-top-color: #f2414e;
+}
+
+.testimonial.testimonial-primary .testimonial-desc {}
+
+.testimonial.testimonial-primary .testimonial-desc img {
+  border-color: #f2414e;
+}
+
+.testimonial.testimonial-primary .testimonial-writer-name {
+  color: black;
+}
+
+/*--end of tesatomonial--*/
+
+form {
+  font-family: 'Boogaloo', cursive;
+}
+
+footer {
+  background: #eab126;
+  border: 1px solid #f2414e;
+  font-family: 'Permanent Marker', cursive;
+  margin-top: 10px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
